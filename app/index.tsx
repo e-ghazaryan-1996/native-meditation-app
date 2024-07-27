@@ -8,7 +8,6 @@ import {
 } from "react-native";
 import beachImage from "@/assets/meditation-images/beach.webp";
 import { StatusBar } from "expo-status-bar";
-import { LinearGradient } from "expo-linear-gradient";
 import StyledButton from "@/components/StyledButton";
 import { useRouter } from "expo-router";
 import AppGradient from "@/components/AppGradient";
