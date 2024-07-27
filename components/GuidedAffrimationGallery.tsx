@@ -25,7 +25,7 @@ const GuidedAffrimationGallery: React.FC<IGuidedAffrimationGalleryProps> = ({
           horizontal
           renderItem={(item) => {
             return (
-              <Link href={`/affirmation/${item.item.id}`} asChild>
+              <Link href={`/affirmations/${item.item.id}`} asChild>
                 <Pressable>
                   <View className="h-36 w-32 rounded-md mr-4">
                     <Image
